@@ -41,7 +41,10 @@ git clone [url-du-an]
 npm install
 npm run dev
 ```
-Truy cập: Mở trình và truy cập vào http://localhost:3000.
+Truy cập vào đường link: http://localhost:3000 để vào môi trường dev.
+
+Hoặc có thể truy cập trực tiếp vào đường link sau: clique-test-phi.vercel.app (Deploy on Vercel) để vào môi trường production
+* Lưu ý: Trang đầu tiên sau khi truy cập đường dẫn là trang tạo profile. sau khi tạo xong và nhấn "Lưu Profile" trang sẽ tự redirect đến trang chính (clique-test-phi.vercel.app/explore hoặc http://localhost:3000/explore nếu chạy dev) lúc này nếu muốn tạo thêm profile để test có thể nhấn vào chữ "Profile" trên header để quay lại trang tạo profile và tiếp tục tạo thêm profile khác. 
 
 ## 🛠 Dữ liệu hệ thống được quản lý qua các Key trên LocalStorage như sau:
 
@@ -53,13 +56,12 @@ Truy cập: Mở trình và truy cập vào http://localhost:3000.
 6. rejected_list: Mảng chứa danh sách từ chối vĩnh viễn, 1 lượt từ chối vĩnh viễn bao gồm các thông tin: fromEmail, toEmail.
 
 ## ✨ Tính năng & Logic xử lý:
-
 1. Tạo hồ sơ người dùng (Create Profile)
    - Cách dùng: Người dùng nhập đầy đủ các thông tin cá nhân (Tên, tuổi, sở thích,...) và nhấn "Lưu profile" để khởi tạo.
 
    - Logic xử lý: Sử dụng thư viện react-hook-form để xử lý thông tin form và sử dụng Zod để validate form.Thông tin sẽ được lưu trữ vào mảng "dating_users" trong LocalStorage.
 
-   - Lưu ý: Ảnh đại diện là không bắt buộc; nếu trống, hệ thống tự động gán ảnh mặc định (default-image.png). Sau khi tạo xong sẽ được chuyển đến trang chính /explore. nếu muốn tạo thêm profile để test có thể nhấn nút Profile trên header để quay lại tạo thêm profile.
+   - Lưu ý: Ảnh đại diện là không bắt buộc; nếu trống, hệ thống tự động gán ảnh mặc định (default-image.png).
 
 2. Cơ chế đóng vai
    - Cách dùng: trên Header tại trang chính sẽ có 1 combobox "đóng vai" chứa toàn bộ tên user đã tạo, chọn 1 user đồng nghĩa với việc anh/chị đã đăng nhập vào tài khoản của user đó để thuận tiện cho việc test.
