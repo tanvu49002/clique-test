@@ -43,8 +43,9 @@ npm run dev
 ```
 Truy cập vào đường link: http://localhost:3000 để vào môi trường dev.
 
-Hoặc có thể truy cập trực tiếp vào đường link sau: clique-test-phi.vercel.app (Deploy on Vercel) để vào môi trường production
-* Lưu ý: Trang đầu tiên sau khi truy cập đường dẫn là trang tạo profile. sau khi tạo xong và nhấn "Lưu Profile" trang sẽ tự redirect đến trang chính (clique-test-phi.vercel.app/explore hoặc http://localhost:3000/explore nếu chạy dev) lúc này nếu muốn tạo thêm profile để test có thể nhấn vào chữ "Profile" trên header để quay lại trang tạo profile và tiếp tục tạo thêm profile khác. 
+Hoặc có thể truy cập trực tiếp vào đường link sau: [clique-test-phi.vercel.app](https://clique-test-phi.vercel.app) (Deploy on Vercel) để vào môi trường production
+
+* Lưu ý: Trang đầu tiên sau khi truy cập đường dẫn là trang tạo profile. sau khi tạo xong và nhấn "Lưu Profile" trang sẽ tự redirect đến trang chính ([clique-test-phi.vercel.app](https://clique-test-phi.vercel.app/explore) hoặc http://localhost:3000/explore nếu chạy dev) lúc này nếu muốn tạo thêm profile để test có thể nhấn vào chữ "Profile" trên header để quay lại trang tạo profile và tiếp tục tạo thêm profile khác. 
 
 ## 🛠 Dữ liệu hệ thống được quản lý qua các Key trên LocalStorage như sau:
 
