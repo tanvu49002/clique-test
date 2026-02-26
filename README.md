@@ -13,7 +13,7 @@ Quản lý dữ liệu: LocalStorage.
 Thư viện hỗ trợ: react-hook-form, zod, react-hot-toast.
 
 ## 📂 Cấu trúc thư mục dự án:
-
+```bash
 src/
 ├── app/
 │ └── explore/
@@ -32,7 +32,7 @@ src/
 │ └── index.ts # Định nghĩa các Interface dữ liệu
 ├── utils/
 │ └── date.ts # Các hàm helper xử lý logic ngày, tháng, giờ
-
+```
 ## 🛠 Cách chạy dự án
 
 Thực hiện lần lượt các câu lệnh dưới đây để chạy dự án ở môi trường dev:
